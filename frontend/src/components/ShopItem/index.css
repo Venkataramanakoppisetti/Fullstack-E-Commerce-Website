@@ -1,8 +1,9 @@
 .shop-item-container {
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(180deg, #fde1ff, #e1ffae22 60%);
     display: flex;
     justify-content: space-around;
+    overflow-x: hidden; /* Prevents horizontal overflow */
 }
 
 .shop-item-left {
@@ -10,8 +11,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20;
-    padding-left: 180px;
+    gap: 20px; /* Added unit to gap */
+    padding-left: 10%; /* Adjusted padding to percentage for responsiveness */
     line-height: 1.1;
 }
 
@@ -41,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:15px;
+    gap: 15px;
     width: 210px;
     height: 50px;
     border-radius: 75px;
@@ -56,13 +57,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .shop-model-image {
-    height: 500px;
-    margin-right: 40px;
-    margin-top: 40px;
+    height: 450px;
+    margin-right: 80%; /* Adjusted margin to percentage */
+    max-width: 100%; /* Ensures the image does not overflow */
 }
-
-

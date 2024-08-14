@@ -9,7 +9,7 @@
     height: 65vh;
     display: flex;
     justify-content: space-around;
-    margin: 150px auto 150px auto;
+    margin: 50px auto 50px auto;
     padding: 0 180px; /* Adjusted padding */
     background: linear-gradient(180deg, #fde1ff, #e1ffae22 60%);
 }
